@@ -1,2 +1,2 @@
 # fileOrganizer 
-Developed python script to organize file base on its type.  
+Python script to organize file base on its type.  
