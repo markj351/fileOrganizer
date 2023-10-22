@@ -1,9 +1,10 @@
+# Mark Johnson
 import os
 import shutil
-path = input("Enter path: ")
+path = input("Enter path of file: ")
 files = os.listdir(path)
 for file in files:
-    name_file,extension = os.path.splitext(file)
+    nameOfFile,extension = os.path.splitext(file)
     extension = extension[1:]
     
     if os.path.exists(path+'/'+extension):
